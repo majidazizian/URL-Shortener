@@ -9,7 +9,7 @@ const fs = require('fs');
 const path = require('path');
 const usersRoute = require("./routes/user.route");
 const url = require("./routes/url.route");
-const urlController = require('./controller/urlController')
+const urlController = require('./controller/urlController');
 const kue = require('kue');
 const kueUiExpress = require('kue-ui-express');
 
